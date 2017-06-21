@@ -1,5 +1,8 @@
 {
 .appVersion = "983";
+DisplayStrings = (
+d
+);
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
 designer = "Nina Botthof";
@@ -356,62 +359,10 @@ unicode = 0063;
 },
 {
 glyphname = d;
-lastChange = "2017-06-21 10:27:54 +0000";
+lastChange = "2017-06-21 22:27:28 +0000";
 layers = (
 {
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
-paths = (
-{
-closed = 1;
-nodes = (
-"353 371 OFFCURVE",
-"344 372 OFFCURVE",
-"319 326 CURVE SMOOTH",
-"255 208 OFFCURVE",
-"229 155 OFFCURVE",
-"207 55 CURVE",
-"45 110 OFFCURVE",
-"97 547 OFFCURVE",
-"367 432 CURVE",
-"399 507 LINE",
-"157 525 OFFCURVE",
-"30 369 OFFCURVE",
-"30 185 CURVE SMOOTH",
-"30 68 OFFCURVE",
-"101 -11 OFFCURVE",
-"181 -11 CURVE SMOOTH",
-"212 -11 OFFCURVE",
-"248 4 OFFCURVE",
-"275 23 CURVE",
-"283 103 OFFCURVE",
-"292 196 OFFCURVE",
-"331 290 CURVE",
-"346 323 OFFCURVE",
-"359 296 OFFCURVE",
-"379 326 CURVE",
-"381 404 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"399 56 LINE",
-"399 802 LINE",
-"359 817 LINE",
-"314 803 OFFCURVE",
-"260 770 OFFCURVE",
-"232 744 CURVE",
-"245 724 LINE",
-"315 752 LINE",
-"315 7 LINE",
-"353 -8 LINE",
-"399 5 OFFCURVE",
-"454 38 OFFCURVE",
-"481 66 CURVE",
-"469 85 LINE"
-);
-}
-);
 width = 486;
 }
 );
