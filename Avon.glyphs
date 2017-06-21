@@ -1,7 +1,8 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-n
+n,
+an
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -279,56 +280,66 @@ unicode = 005A;
 },
 {
 glyphname = a;
-lastChange = "2017-06-21 10:27:24 +0000";
+lastChange = "2017-06-21 21:13:35 +0000";
 layers = (
 {
+backgroundImage = {
+crop = "{{0, 0}, {1031, 1280}}";
+imagePath = "../finale Skizzen/a neu.jpg";
+locked = "1";
+transform = "{0.5331, 0, 0, 0.5331, -36, -119}";
+};
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
 {
 closed = 1;
 nodes = (
-"30 73 OFFCURVE",
-"103 -10 OFFCURVE",
-"185 -10 CURVE SMOOTH",
-"217 -10 OFFCURVE",
-"255 6 OFFCURVE",
-"281 26 CURVE",
-"290 108 OFFCURVE",
-"298 204 OFFCURVE",
-"339 300 CURVE SMOOTH",
-"354 335 OFFCURVE",
-"368 306 OFFCURVE",
-"389 338 CURVE SMOOTH",
-"418 367 OFFCURVE",
-"442 449 OFFCURVE",
-"442 485 CURVE",
-"409 531 LINE",
-"322 509 LINE",
-"322 9 LINE",
-"362 -6 LINE",
-"410 8 OFFCURVE",
-"465 41 OFFCURVE",
-"493 69 CURVE",
-"480 90 LINE",
-"409 61 LINE",
-"409 421 LINE",
-"380 386 OFFCURVE",
-"351 386 OFFCURVE",
-"327 338 CURVE SMOOTH",
-"264 212 OFFCURVE",
-"234 160 OFFCURVE",
-"211 58 CURVE",
-"44 115 OFFCURVE",
-"100 564 OFFCURVE",
-"376 446 CURVE",
-"409 523 LINE",
-"161 543 OFFCURVE",
-"30 381 OFFCURVE",
-"30 191 CURVE SMOOTH"
+"30 63 OFFCURVE",
+"94 -13 OFFCURVE",
+"166 -13 CURVE SMOOTH",
+"194 -13 OFFCURVE",
+"217 -12 OFFCURVE",
+"240 0 CURVE",
+"251 147 OFFCURVE",
+"288 242 OFFCURVE",
+"310 292 CURVE SMOOTH",
+"323 323 OFFCURVE",
+"330 287 OFFCURVE",
+"346 317 CURVE SMOOTH",
+"390 400 LINE",
+"389 436 OFFCURVE",
+"371 456 OFFCURVE",
+"347 467 CURVE",
+"289 442 LINE",
+"304 361 OFFCURVE",
+"300 173 OFFCURVE",
+"287 9 CURVE",
+"308 -13 LINE",
+"352 -2 OFFCURVE",
+"429 37 OFFCURVE",
+"451 62 CURVE",
+"439 79 LINE",
+"359 52 LINE",
+"359 156 OFFCURVE",
+"366 263 OFFCURVE",
+"370 369 CURVE",
+"344 339 OFFCURVE",
+"324 380 OFFCURVE",
+"301 340 CURVE SMOOTH",
+"237 229 OFFCURVE",
+"208 144 OFFCURVE",
+"188 49 CURVE",
+"33 107 OFFCURVE",
+"78 502 OFFCURVE",
+"333 389 CURVE",
+"362 457 LINE",
+"157 494 OFFCURVE",
+"30 338 OFFCURVE",
+"30 166 CURVE SMOOTH"
 );
 }
 );
-width = 498;
+width = 461;
 }
 );
 unicode = 0061;
@@ -508,7 +519,7 @@ unicode = 006D;
 },
 {
 glyphname = n;
-lastChange = "2017-06-21 20:48:31 +0000";
+lastChange = "2017-06-21 21:02:24 +0000";
 layers = (
 {
 background = {
@@ -662,21 +673,16 @@ nodes = (
 }
 );
 };
-backgroundImage = {
-crop = "{{0, 0}, {1280, 433}}";
-imagePath = "finale Skizzen/avon neu.jpg";
-transform = "{1.5964, 0, 0, 1.5964, -1466, -94}";
-};
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
 {
 closed = 1;
 nodes = (
 "43 433 OFFCURVE",
-"108 457 OFFCURVE",
-"149 464 CURVE",
-"171 440 LINE",
-"151 359 OFFCURVE",
+"104 457 OFFCURVE",
+"145 464 CURVE",
+"167 440 LINE",
+"153 359 OFFCURVE",
 "153 214 OFFCURVE",
 "153 101 CURVE SMOOTH",
 "153 78 OFFCURVE",
