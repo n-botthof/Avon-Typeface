@@ -616,7 +616,7 @@ nodes = (
 };
 backgroundImage = {
 crop = "{{0, 0}, {1280, 433}}";
-imagePath = "../finale Skizzen/avon neu.jpg";
+imagePath = "/Users/nina/FH/4. Sem/Typedesign/finale Skizzen/avon neu.jpg";
 transform = "{1.3697, 0, 0, 1.3697, -1211, -75}";
 };
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
@@ -690,7 +690,7 @@ layers = (
 {
 backgroundImage = {
 crop = "{{0, 0}, {1280, 433}}";
-imagePath = "../finale Skizzen/avon neu.jpg";
+imagePath = "/Users/nina/FH/4. Sem/Typedesign/finale Skizzen/avon neu.jpg";
 transform = "{1.37, 0, 0, 1.3856, -834, -75}";
 };
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
@@ -808,7 +808,7 @@ layers = (
 {
 backgroundImage = {
 crop = "{{0, 0}, {1280, 433}}";
-imagePath = "../finale Skizzen/avon neu.jpg";
+imagePath = "/Users/nina/FH/4. Sem/Typedesign/finale Skizzen/avon neu.jpg";
 locked = "1";
 transform = "{1.37, 0, 0, 1.386, -459, -76}";
 };
