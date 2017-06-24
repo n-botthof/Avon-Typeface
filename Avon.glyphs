@@ -3,7 +3,8 @@
 DisplayStrings = (
 n,
 p,
-q
+q,
+i
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -732,7 +733,7 @@ unicode = 0068;
 },
 {
 glyphname = i;
-lastChange = "2017-06-24 19:21:04 +0000";
+lastChange = "2017-06-24 20:49:18 +0000";
 layers = (
 {
 background = {
@@ -808,18 +809,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"71 650 LINE",
-"90 630 LINE",
-"114 636 OFFCURVE",
-"138 646 OFFCURVE",
-"161 660 CURVE",
-"161 686 OFFCURVE",
-"162 712 OFFCURVE",
-"163 737 CURVE",
-"143 758 LINE",
-"119 752 OFFCURVE",
-"95 743 OFFCURVE",
-"71 728 CURVE"
+"71 590 LINE",
+"90 570 LINE",
+"114 576 OFFCURVE",
+"138 586 OFFCURVE",
+"161 600 CURVE",
+"161 626 OFFCURVE",
+"162 652 OFFCURVE",
+"163 677 CURVE",
+"143 698 LINE",
+"119 692 OFFCURVE",
+"95 683 OFFCURVE",
+"71 668 CURVE"
 );
 }
 );
