@@ -1,5 +1,9 @@
 {
 .appVersion = "983";
+DisplayStrings = (
+u,
+f
+);
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
 designer = "Nina Botthof";
@@ -2175,9 +2179,49 @@ unicode = 0075;
 },
 {
 glyphname = v;
-lastChange = "2017-06-24 20:26:39 +0000";
+lastChange = "2017-06-27 15:05:53 +0000";
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"183 169 OFFCURVE",
+"148 294 OFFCURVE",
+"154 440 CURVE",
+"132 464 LINE",
+"102 460 OFFCURVE",
+"35 437 OFFCURVE",
+"-5 407 CURVE",
+"6 387 LINE",
+"74 395 LINE",
+"106 247 OFFCURVE",
+"132 137 OFFCURVE",
+"174 19 CURVE",
+"201 1 LINE",
+"216 7 OFFCURVE",
+"230 15 OFFCURVE",
+"244 25 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"244 25 LINE",
+"263 120 OFFCURVE",
+"474 286 OFFCURVE",
+"338 461 CURVE",
+"309 455 OFFCURVE",
+"284 447 OFFCURVE",
+"260 435 CURVE",
+"380 255 OFFCURVE",
+"250 144 OFFCURVE",
+"210 50 CURVE"
+);
+}
+);
+};
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
 {
