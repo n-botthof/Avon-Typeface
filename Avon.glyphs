@@ -3,8 +3,7 @@
 DisplayStrings = (
 u,
 f,
-h,
-a
+h
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -381,10 +380,10 @@ unicode = 0061;
 },
 {
 glyphname = b;
-lastChange = "2017-06-24 18:14:20 +0000";
+lastChange = "2017-06-28 18:23:43 +0000";
 layers = (
 {
-layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+background = {
 paths = (
 {
 closed = 1;
@@ -455,6 +454,39 @@ nodes = (
 "85 173 OFFCURVE",
 "76 9 CURVE",
 "144 52 LINE"
+);
+}
+);
+};
+components = (
+{
+name = _part.bauch;
+transform = "{-1, 0, 0, -1, 463, 437}";
+}
+);
+hints = (
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Cap;
+name = _cap.obereserife;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Cap;
+name = _cap.knubbel;
+}
+);
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"78 0 LINE",
+"143 0 LINE",
+"143 712 LINE",
+"78 712 LINE"
 );
 }
 );
@@ -977,7 +1009,7 @@ unicode = 0067;
 },
 {
 glyphname = h;
-lastChange = "2017-06-28 17:49:10 +0000";
+lastChange = "2017-06-28 18:19:41 +0000";
 layers = (
 {
 background = {
@@ -1044,7 +1076,32 @@ nodes = (
 }
 );
 };
+hints = (
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Cap;
+name = _cap.knubbel;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Cap;
+name = _cap.obereserife;
+}
+);
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"78 0 LINE",
+"143 0 LINE",
+"143 712 LINE",
+"78 712 LINE"
+);
+}
+);
 width = 477;
 }
 );
@@ -3750,7 +3807,7 @@ unicode = 0020;
 {
 export = 0;
 glyphname = _part.bauch;
-lastChange = "2017-06-28 15:23:30 +0000";
+lastChange = "2017-06-28 18:24:38 +0000";
 layers = (
 {
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
@@ -3758,24 +3815,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"201 504 OFFCURVE",
-"31 341 OFFCURVE",
-"31 160 CURVE SMOOTH",
-"31 11 OFFCURVE",
-"149 -46 OFFCURVE",
-"248 7 CURVE",
-"202 -46 LINE",
-"360 318 LINE",
-"337 337 LINE",
-"153 11 LINE",
-"201 39 LINE",
-"137 60 OFFCURVE",
-"105 113 OFFCURVE",
-"105 202 CURVE SMOOTH",
-"105 332 OFFCURVE",
-"217 466 OFFCURVE",
-"360 369 CURVE",
-"397 433 LINE"
+"201 503 OFFCURVE",
+"31 340 OFFCURVE",
+"31 159 CURVE SMOOTH",
+"31 10 OFFCURVE",
+"149 -47 OFFCURVE",
+"248 6 CURVE",
+"202 -47 LINE",
+"360 317 LINE",
+"337 336 LINE",
+"153 10 LINE",
+"201 38 LINE",
+"137 59 OFFCURVE",
+"105 112 OFFCURVE",
+"105 201 CURVE SMOOTH",
+"105 331 OFFCURVE",
+"217 465 OFFCURVE",
+"360 368 CURVE",
+"397 432 LINE"
 );
 }
 );
@@ -3849,6 +3906,37 @@ nodes = (
 }
 );
 width = 478;
+}
+);
+},
+{
+export = 0;
+glyphname = _cap.obereserife;
+lastChange = "2017-06-28 18:18:37 +0000";
+layers = (
+{
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 0;
+nodes = (
+"0 289 LINE",
+"-1 153 OFFCURVE",
+"-5 40 OFFCURVE",
+"-16 14 CURVE",
+"6 -10 LINE",
+"61 0 OFFCURVE",
+"103 20 OFFCURVE",
+"143 47 CURVE",
+"132 67 LINE",
+"65 59 LINE",
+"64 136 OFFCURVE",
+"64 213 OFFCURVE",
+"64 289 CURVE"
+);
+}
+);
+width = 454;
 }
 );
 }
