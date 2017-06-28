@@ -1,9 +1,13 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"/_part.bauch/_part.bauch b",
 a,
-b
+ba,
+/_cap.obenneu,
+/_cap.knubbelneu,
+i,
+b,
+h
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -289,12 +293,13 @@ unicode = 005A;
 },
 {
 glyphname = a;
-lastChange = "2017-06-28 21:16:51 +0000";
+lastChange = "2017-06-28 21:46:51 +0000";
 layers = (
 {
 components = (
 {
 name = _part.bauch;
+transform = "{1, 0, 0, 1, -1, 0}";
 }
 );
 hints = (
@@ -316,31 +321,56 @@ paths = (
 {
 closed = 1;
 nodes = (
-"315 0 LINE",
-"377 0 LINE",
-"401 452 LINE",
-"338 452 LINE"
+"314 0 LINE",
+"376 0 LINE",
+"400 452 LINE",
+"337 452 LINE"
 );
 }
 );
-width = 478;
+width = 486;
 }
 );
 unicode = 0061;
 },
 {
 glyphname = b;
-lastChange = "2017-06-28 21:21:45 +0000";
+lastChange = "2017-06-28 21:46:39 +0000";
 layers = (
 {
 components = (
 {
 name = _part.bauch;
-transform = "{-1, 0, 0, -1, 463, 449}";
+transform = "{-1, 0, 0, -1, 472, 449}";
+}
+);
+hints = (
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Cap;
+name = _cap.knubbelneu;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Cap;
+name = _cap.obenneu;
 }
 );
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
-width = 478;
+paths = (
+{
+closed = 1;
+nodes = (
+"67 0 LINE",
+"129 0 LINE",
+"166 712 LINE",
+"103 712 LINE"
+);
+}
+);
+width = 471;
 }
 );
 unicode = 0062;
@@ -435,7 +465,7 @@ unicode = 0063;
 },
 {
 glyphname = d;
-lastChange = "2017-06-28 18:34:14 +0000";
+lastChange = "2017-06-28 21:47:07 +0000";
 layers = (
 {
 background = {
@@ -443,49 +473,49 @@ paths = (
 {
 closed = 1;
 nodes = (
-"439 79 LINE",
-"451 62 LINE",
-"429 37 OFFCURVE",
-"356 -2 OFFCURVE",
-"312 -13 CURVE",
-"291 9 LINE",
-"300 173 OFFCURVE",
-"299 388 OFFCURVE",
-"299 653 CURVE",
-"231 645 LINE",
-"220 665 LINE",
-"253 691 OFFCURVE",
-"316 715 OFFCURVE",
-"357 722 CURVE",
-"379 698 LINE",
-"357 658 OFFCURVE",
-"356 73 OFFCURVE",
-"359 52 CURVE"
+"460 79 LINE",
+"472 62 LINE",
+"450 37 OFFCURVE",
+"377 -2 OFFCURVE",
+"333 -13 CURVE",
+"312 9 LINE",
+"321 173 OFFCURVE",
+"320 388 OFFCURVE",
+"320 653 CURVE",
+"252 645 LINE",
+"241 665 LINE",
+"274 691 OFFCURVE",
+"337 715 OFFCURVE",
+"378 722 CURVE",
+"400 698 LINE",
+"378 658 OFFCURVE",
+"377 73 OFFCURVE",
+"380 52 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"269 202 OFFCURVE",
-"226 100 OFFCURVE",
-"198 -5 CURVE",
-"173 -14 OFFCURVE",
-"150 -11 OFFCURVE",
-"123 -8 CURVE SMOOTH",
-"51 0 OFFCURVE",
-"-3 84 OFFCURVE",
-"10 187 CURVE SMOOTH",
-"29 343 OFFCURVE",
-"154 473 OFFCURVE",
-"328 445 CURVE",
-"338 369 LINE",
-"100 513 OFFCURVE",
-"5 128 OFFCURVE",
-"152 51 CURVE",
-"192 141 OFFCURVE",
-"232 225 OFFCURVE",
-"301 319 CURVE",
-"303 276 LINE"
+"290 202 OFFCURVE",
+"247 100 OFFCURVE",
+"219 -5 CURVE",
+"194 -14 OFFCURVE",
+"171 -11 OFFCURVE",
+"144 -8 CURVE SMOOTH",
+"72 0 OFFCURVE",
+"18 84 OFFCURVE",
+"31 187 CURVE SMOOTH",
+"50 343 OFFCURVE",
+"175 473 OFFCURVE",
+"349 445 CURVE",
+"359 369 LINE",
+"121 513 OFFCURVE",
+"26 128 OFFCURVE",
+"173 51 CURVE",
+"213 141 OFFCURVE",
+"253 225 OFFCURVE",
+"322 319 CURVE",
+"324 276 LINE"
 );
 }
 );
@@ -493,7 +523,7 @@ nodes = (
 components = (
 {
 name = _part.bauch;
-transform = "{1, 0, 0, 1, -22, 0}";
+transform = "{1, 0, 0, 1, -1, 0}";
 }
 );
 hints = (
@@ -501,13 +531,13 @@ hints = (
 origin = "{0, 0}";
 target = "{0, 1}";
 type = Cap;
-name = _cap.stammende;
+name = _cap.untenneu;
 },
 {
 origin = "{0, 2}";
 target = "{0, 3}";
 type = Cap;
-name = _cap.obereserife;
+name = _cap.obenneu;
 }
 );
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
@@ -515,14 +545,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"298 0 LINE",
-"363 0 LINE",
-"363 712 LINE",
-"298 712 LINE"
+"299 0 LINE",
+"361 0 LINE",
+"398 712 LINE",
+"335 712 LINE"
 );
 }
 );
-width = 478;
+width = 471;
 }
 );
 unicode = 0064;
@@ -833,7 +863,7 @@ unicode = 0067;
 },
 {
 glyphname = h;
-lastChange = "2017-06-28 19:10:06 +0000";
+lastChange = "2017-06-28 21:49:38 +0000";
 layers = (
 {
 background = {
@@ -910,13 +940,13 @@ hints = (
 origin = "{0, 0}";
 target = "{0, 1}";
 type = Cap;
-name = _cap.knubbel;
+name = _cap.knubbelneu;
 },
 {
 origin = "{0, 2}";
 target = "{0, 3}";
 type = Cap;
-name = _cap.obereserife;
+name = _cap.obenneu;
 }
 );
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
@@ -924,10 +954,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"78 0 LINE",
-"143 0 LINE",
-"143 712 LINE",
-"78 712 LINE"
+"67 0 LINE",
+"129 0 LINE",
+"166 712 LINE",
+"103 712 LINE"
 );
 }
 );
@@ -3662,11 +3692,11 @@ unicode = 0039;
 },
 {
 glyphname = space;
-lastChange = "2017-06-25 16:12:22 +0000";
+lastChange = "2017-06-28 21:45:42 +0000";
 layers = (
 {
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
-width = 450;
+width = 250;
 }
 );
 unicode = 0020;
@@ -3710,13 +3740,12 @@ unicode = 0307;
 {
 export = 0;
 glyphname = _part.bauch;
-lastChange = "2017-06-28 21:20:12 +0000";
+lastChange = "2017-06-28 21:22:15 +0000";
 layers = (
 {
 backgroundImage = {
 crop = "{{0, 0}, {1280, 1140}}";
 imagePath = "../finale Skizzen/neu runder bauch.jpg";
-locked = "1";
 transform = "{1.3075, 0.0228, -0.0228, 1.3075, -1126.042, -732}";
 };
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
@@ -3890,7 +3919,7 @@ width = 477;
 {
 export = 0;
 glyphname = _cap.knubbelneu;
-lastChange = "2017-06-28 21:11:50 +0000";
+lastChange = "2017-06-28 21:36:38 +0000";
 layers = (
 {
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
@@ -3913,8 +3942,8 @@ nodes = (
 "61 10 OFFCURVE",
 "66 22 CURVE",
 "64 96 OFFCURVE",
-"63 169 OFFCURVE",
-"63 243 CURVE"
+"62 169 OFFCURVE",
+"62 243 CURVE"
 );
 }
 );
@@ -3951,6 +3980,39 @@ nodes = (
 }
 );
 width = 492;
+}
+);
+},
+{
+export = 0;
+glyphname = _cap.obenneu;
+lastChange = "2017-06-28 21:36:29 +0000";
+layers = (
+{
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 0;
+nodes = (
+"0 469 LINE",
+"-2 304 OFFCURVE",
+"-4 113 OFFCURVE",
+"-16 2 CURVE",
+"7 -27 LINE",
+"57 -26 OFFCURVE",
+"109 -15 OFFCURVE",
+"156 -4 CURVE",
+"150 26 LINE",
+"80 22 OFFCURVE",
+"76 43 OFFCURVE",
+"71 88 CURVE SMOOTH",
+"65 139 OFFCURVE",
+"62 333 OFFCURVE",
+"63 469 CURVE SMOOTH"
+);
+}
+);
+width = 477;
 }
 );
 }
