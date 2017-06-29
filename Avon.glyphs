@@ -5,8 +5,7 @@ DisplayStrings = (
 nah,
 /_part.bogenknubbel,
 mann,
-papa,
-qaba
+"allah mann"
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -14,7 +13,7 @@ designer = "Nina Botthof";
 familyName = Avon;
 fontMaster = (
 {
-ascender = 712;
+ascender = 716;
 capHeight = 670;
 descender = -288;
 guideLines = (
@@ -1055,38 +1054,10 @@ unicode = 006A;
 },
 {
 glyphname = k;
-lastChange = "2017-06-27 14:22:17 +0000";
+lastChange = "2017-06-29 10:08:40 +0000";
 layers = (
 {
 background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"355 -20 LINE",
-"387 12 OFFCURVE",
-"423 64 OFFCURVE",
-"433 97 CURVE",
-"415 107 LINE",
-"360 57 LINE",
-"319 105 OFFCURVE",
-"276 205 OFFCURVE",
-"247 285 CURVE",
-"189 244 LINE",
-"225 154 OFFCURVE",
-"277 39 OFFCURVE",
-"325 -11 CURVE"
-);
-}
-);
-};
-backgroundImage = {
-crop = "{{0, 0}, {1280, 1139}}";
-imagePath = "../finale Skizzen/k nase.jpg";
-locked = "1";
-transform = "{0.8053, 0, 0, 0.8053, -529, -93}";
-};
-layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
 {
 closed = 1;
@@ -1160,6 +1131,33 @@ nodes = (
 );
 }
 );
+};
+hints = (
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Cap;
+name = _cap.knubbelneu;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Cap;
+name = _cap.obenneu;
+}
+);
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"67 0 LINE",
+"129 0 LINE",
+"166 712 LINE",
+"103 712 LINE"
+);
+}
+);
 width = 444;
 }
 );
@@ -1167,10 +1165,10 @@ unicode = 006B;
 },
 {
 glyphname = l;
-lastChange = "2017-06-24 20:01:43 +0000";
+lastChange = "2017-06-29 09:58:32 +0000";
 layers = (
 {
-layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+background = {
 paths = (
 {
 closed = 1;
@@ -1196,6 +1194,33 @@ nodes = (
 );
 }
 );
+};
+hints = (
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Cap;
+name = _cap.obenneu;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Cap;
+name = _cap.untenneu;
+}
+);
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"67 0 LINE",
+"129 0 LINE",
+"166 712 LINE",
+"103 712 LINE"
+);
+}
+);
 width = 238;
 }
 );
@@ -1203,7 +1228,7 @@ unicode = 006C;
 },
 {
 glyphname = m;
-lastChange = "2017-06-29 09:11:15 +0000";
+lastChange = "2017-06-29 09:56:47 +0000";
 layers = (
 {
 background = {
@@ -1316,10 +1341,10 @@ nodes = (
 components = (
 {
 name = _part.bogen;
-transform = "{1, 0, 0, 1, 296, 0}";
+transform = "{1, 0, 0, 1, 293, 0}";
 piece = {
 crotchDepth = -17.1765;
-shoulderWidh = 50.2222;
+shoulderWidh = 14.0735;
 };
 },
 {
