@@ -4,7 +4,9 @@ DisplayStrings = (
 /_part.bauch,
 nah,
 /_part.bogenknubbel,
-mann
+mann,
+papa,
+q
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -1518,37 +1520,10 @@ unicode = 006F;
 },
 {
 glyphname = p;
-lastChange = "2017-06-24 20:45:55 +0000";
+lastChange = "2017-06-29 09:43:54 +0000";
 layers = (
 {
 background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"224 -165 LINE",
-"236 -182 LINE",
-"214 -207 OFFCURVE",
-"141 -246 OFFCURVE",
-"97 -257 CURVE",
-"76 -235 LINE",
-"85 -71 OFFCURVE",
-"84 144 OFFCURVE",
-"84 409 CURVE",
-"16 401 LINE",
-"5 421 LINE",
-"38 447 OFFCURVE",
-"101 471 OFFCURVE",
-"142 478 CURVE",
-"164 454 LINE",
-"142 414 OFFCURVE",
-"141 -171 OFFCURVE",
-"144 -192 CURVE"
-);
-}
-);
-};
-layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
 {
 closed = 1;
@@ -1611,7 +1586,40 @@ nodes = (
 );
 }
 );
-width = 464;
+};
+components = (
+{
+name = _part.bauch;
+transform = "{-1, 0, 0, -1, 483, 449}";
+}
+);
+hints = (
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Cap;
+name = _cap.obenneu;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Cap;
+name = _cap.unterlaenge;
+}
+);
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"52 -288 LINE",
+"115 -288 LINE",
+"158 452 LINE",
+"95 452 LINE"
+);
+}
+);
+width = 482;
 }
 );
 unicode = 0070;
@@ -4366,6 +4374,42 @@ bottomName = Low;
 bottomValue = -100;
 topName = High;
 topValue = 0;
+}
+);
+},
+{
+export = 0;
+glyphname = _cap.unterlaenge;
+lastChange = "2017-06-29 09:44:22 +0000";
+layers = (
+{
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 0;
+nodes = (
+"0 272 LINE",
+"0 192 OFFCURVE",
+"6 130 OFFCURVE",
+"-3 53 CURVE",
+"-97 24 LINE",
+"-85 -10 LINE",
+"-47 -2 OFFCURVE",
+"-9 0 OFFCURVE",
+"29 0 CURVE SMOOTH",
+"83 0 OFFCURVE",
+"107 -4 OFFCURVE",
+"147 -10 CURVE",
+"166 7 LINE",
+"168 33 LINE",
+"66 57 LINE",
+"69 131 OFFCURVE",
+"63 194 OFFCURVE",
+"63 272 CURVE"
+);
+}
+);
+width = 464;
 }
 );
 }
