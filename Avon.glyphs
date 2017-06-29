@@ -6,7 +6,7 @@ nah,
 /_part.bogenknubbel,
 mann,
 papa,
-q
+qaba
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -1626,37 +1626,10 @@ unicode = 0070;
 },
 {
 glyphname = q;
-lastChange = "2017-06-24 20:46:10 +0000";
+lastChange = "2017-06-29 09:50:21 +0000";
 layers = (
 {
 background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"451 -218 LINE",
-"463 -235 LINE",
-"441 -260 OFFCURVE",
-"368 -299 OFFCURVE",
-"324 -310 CURVE",
-"303 -288 LINE",
-"312 -124 OFFCURVE",
-"311 91 OFFCURVE",
-"311 356 CURVE",
-"243 348 LINE",
-"232 368 LINE",
-"265 394 OFFCURVE",
-"328 418 OFFCURVE",
-"369 425 CURVE",
-"391 401 LINE",
-"369 361 OFFCURVE",
-"368 -224 OFFCURVE",
-"371 -245 CURVE"
-);
-}
-);
-};
-layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
 {
 closed = 1;
@@ -1705,6 +1678,39 @@ nodes = (
 "189 495 OFFCURVE",
 "44 356 OFFCURVE",
 "22 186 CURVE SMOOTH"
+);
+}
+);
+};
+components = (
+{
+name = _part.bauch;
+transform = "{1, 0, 0, 1, -1, 0}";
+}
+);
+hints = (
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Cap;
+name = _cap.unterlaenge;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Cap;
+name = _cap.knubbelneu;
+}
+);
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"295 -288 LINE",
+"358 -288 LINE",
+"401 452 LINE",
+"338 452 LINE"
 );
 }
 );
