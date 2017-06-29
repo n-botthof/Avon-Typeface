@@ -1,13 +1,8 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-a,
-ba,
-i,
-b,
-"habba habba",
-/_part.bogen,
-/_cap.untenneu
+/_part.bauch,
+nah
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -1320,61 +1315,10 @@ unicode = 006D;
 },
 {
 glyphname = n;
-lastChange = "2017-06-28 20:53:08 +0000";
+lastChange = "2017-06-29 08:34:17 +0000";
 layers = (
 {
 background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"449 371 OFFCURVE",
-"394 453 OFFCURVE",
-"323 463 CURVE SMOOTH",
-"295 467 OFFCURVE",
-"272 468 OFFCURVE",
-"248 459 CURVE",
-"226 370 OFFCURVE",
-"173 239 OFFCURVE",
-"142 178 CURVE",
-"115 129 OFFCURVE",
-"116 167 OFFCURVE",
-"100 137 CURVE SMOOTH",
-"56 54 LINE",
-"57 18 OFFCURVE",
-"75 -2 OFFCURVE",
-"99 -13 CURVE",
-"157 12 LINE",
-"142 93 OFFCURVE",
-"146 281 OFFCURVE",
-"159 445 CURVE",
-"138 467 LINE",
-"94 456 OFFCURVE",
-"17 417 OFFCURVE",
-"-5 392 CURVE",
-"7 375 LINE",
-"87 402 LINE",
-"87 298 OFFCURVE",
-"80 191 OFFCURVE",
-"76 85 CURVE",
-"102 115 OFFCURVE",
-"108 98 OFFCURVE",
-"145 136 CURVE",
-"214 233 OFFCURVE",
-"246 297 OFFCURVE",
-"293 404 CURVE",
-"440 327 OFFCURVE",
-"346 -59 OFFCURVE",
-"107 85 CURVE",
-"70 21 LINE",
-"269 -41 OFFCURVE",
-"415 98 OFFCURVE",
-"436 268 CURVE SMOOTH"
-);
-}
-);
-};
-layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
 {
 closed = 1;
@@ -1432,6 +1376,39 @@ nodes = (
 "84 395 LINE",
 "16 387 LINE",
 "5 407 LINE"
+);
+}
+);
+};
+components = (
+{
+name = _part.bogen;
+transform = "{1, 0, 0, 1, 26, 0}";
+}
+);
+hints = (
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = Cap;
+name = _cap.knubbelneu;
+},
+{
+origin = "{0, 2}";
+target = "{0, 3}";
+type = Cap;
+name = _cap.obenneukurz;
+}
+);
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"75 0 LINE",
+"137 0 LINE",
+"158 452 LINE",
+"96 452 LINE"
 );
 }
 );
@@ -4005,6 +3982,39 @@ nodes = (
 "65 139 OFFCURVE",
 "62 333 OFFCURVE",
 "63 469 CURVE SMOOTH"
+);
+}
+);
+width = 477;
+}
+);
+},
+{
+export = 0;
+glyphname = _cap.obenneukurz;
+lastChange = "2017-06-29 08:35:49 +0000";
+layers = (
+{
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 0;
+nodes = (
+"0 209 LINE",
+"-1 131 OFFCURVE",
+"-1 92 OFFCURVE",
+"-9 12 CURVE",
+"11 -17 LINE",
+"54 -16 OFFCURVE",
+"106 -5 OFFCURVE",
+"153 6 CURVE",
+"147 36 LINE",
+"77 32 OFFCURVE",
+"71 53 OFFCURVE",
+"68 98 CURVE SMOOTH",
+"66 130 OFFCURVE",
+"62 157 OFFCURVE",
+"62 209 CURVE"
 );
 }
 );
