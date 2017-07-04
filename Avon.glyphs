@@ -8,8 +8,9 @@ tb,
 losverpvabntvom,
 i,
 "your tour",
-widerstand,
-abcdefghijklmnopqrstuvwxyz
+"nina botthof",
+abcdefghijklmnopqrstuvwxyz,
+"alles 0123"
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -3582,16 +3583,10 @@ width = 395;
 },
 {
 glyphname = zero;
-lastChange = "2017-06-27 08:41:08 +0000";
+lastChange = "2017-07-04 09:42:12 +0000";
 layers = (
 {
-backgroundImage = {
-crop = "{{0, 0}, {1280, 636}}";
-imagePath = "../finale Skizzen/012.jpg";
-locked = "1";
-transform = "{1.1312, 0, 0, 1.1312, -104, -82}";
-};
-layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+background = {
 paths = (
 {
 closed = 1;
@@ -3634,6 +3629,59 @@ nodes = (
 );
 }
 );
+};
+backgroundImage = {
+crop = "{{0, 0}, {1280, 636}}";
+imagePath = "../finale Skizzen/012.jpg";
+locked = "1";
+transform = "{1.1312, 0, 0, 1.1312, -104, -82}";
+};
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"357 367 LINE",
+"394 389 OFFCURVE",
+"424 422 OFFCURVE",
+"449 467 CURVE",
+"431 428 LINE",
+"366 520 OFFCURVE",
+"294 514 OFFCURVE",
+"263 514 CURVE SMOOTH",
+"117 514 OFFCURVE",
+"30 367 OFFCURVE",
+"30 218 CURVE SMOOTH",
+"30 96 OFFCURVE",
+"96 -9 OFFCURVE",
+"206 -9 CURVE SMOOTH",
+"343 -9 OFFCURVE",
+"453 125 OFFCURVE",
+"453 280 CURVE SMOOTH",
+"453 366 OFFCURVE",
+"436 415 OFFCURVE",
+"384 476 CURVE",
+"421 479 LINE",
+"313 386 LINE",
+"350 433 LINE",
+"384 350 OFFCURVE",
+"393 319 OFFCURVE",
+"393 252 CURVE SMOOTH",
+"393 134 OFFCURVE",
+"333 61 OFFCURVE",
+"249 61 CURVE SMOOTH",
+"139 61 OFFCURVE",
+"98 177 OFFCURVE",
+"98 266 CURVE SMOOTH",
+"98 356 OFFCURVE",
+"149 461 OFFCURVE",
+"236 461 CURVE SMOOTH",
+"284 461 OFFCURVE",
+"316 423 OFFCURVE",
+"337 375 CURVE"
+);
+}
+);
 width = 494;
 }
 );
@@ -3641,10 +3689,24 @@ unicode = 0030;
 },
 {
 glyphname = one;
-lastChange = "2017-06-27 09:32:58 +0000";
+lastChange = "2017-07-04 09:52:01 +0000";
 layers = (
 {
 background = {
+hints = (
+{
+origin = "{2, 2}";
+target = "{2, 3}";
+type = Cap;
+name = _cap.obenneukurz;
+},
+{
+origin = "{2, 0}";
+target = "{2, 1}";
+type = Cap;
+name = _cap.untenneu;
+}
+);
 paths = (
 {
 closed = 1;
@@ -3663,6 +3725,15 @@ nodes = (
 "374 -50 LINE",
 "306 23 LINE"
 );
+},
+{
+closed = 1;
+nodes = (
+"131 52 LINE",
+"194 52 LINE",
+"217 504 LINE",
+"155 504 LINE"
+);
 }
 );
 };
@@ -3677,27 +3748,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"137 417 LINE",
-"21 376 LINE",
-"10 396 LINE",
-"60 439 OFFCURVE",
-"136 494 OFFCURVE",
-"207 518 CURVE",
-"229 494 LINE",
-"198 411 OFFCURVE",
-"200 83 OFFCURVE",
-"203 61 CURVE",
-"305 37 LINE",
-"303 11 LINE",
-"284 -6 LINE",
-"244 0 OFFCURVE",
-"220 4 OFFCURVE",
-"167 4 CURVE SMOOTH",
-"126 4 OFFCURVE",
-"86 0 OFFCURVE",
-"45 -12 CURVE",
-"33 22 LINE",
-"135 57 LINE"
+"131 148 OFFCURVE",
+"139 244 OFFCURVE",
+"142 386 CURVE SMOOTH",
+"143 440 OFFCURVE",
+"106 432 OFFCURVE",
+"27 406 CURVE",
+"17 426 LINE",
+"70 469 OFFCURVE",
+"142 503 OFFCURVE",
+"205 518 CURVE",
+"226 488 LINE",
+"199 276 OFFCURVE",
+"191 83 OFFCURVE",
+"193 61 CURVE",
+"294 37 LINE",
+"290 11 LINE",
+"270 -6 LINE",
+"231 0 OFFCURVE",
+"207 4 OFFCURVE",
+"154 4 CURVE SMOOTH",
+"113 4 OFFCURVE",
+"73 0 OFFCURVE",
+"31 -12 CURVE",
+"21 22 LINE",
+"125 57 LINE"
 );
 }
 );
@@ -3708,7 +3783,7 @@ unicode = 0031;
 },
 {
 glyphname = two;
-lastChange = "2017-06-27 09:33:40 +0000";
+lastChange = "2017-07-04 10:01:38 +0000";
 layers = (
 {
 background = {
@@ -3775,30 +3850,30 @@ paths = (
 {
 closed = 1;
 nodes = (
-"254 397 OFFCURVE",
-"229 454 OFFCURVE",
-"151 454 CURVE SMOOTH",
-"119 454 OFFCURVE",
-"90 452 OFFCURVE",
-"35 408 CURVE",
-"16 428 LINE",
-"68 492 OFFCURVE",
-"126 511 OFFCURVE",
-"169 511 CURVE SMOOTH",
-"281 511 OFFCURVE",
-"345 433 OFFCURVE",
-"316 325 CURVE SMOOTH",
-"297 255 OFFCURVE",
+"261 412 OFFCURVE",
+"221 455 OFFCURVE",
+"165 455 CURVE SMOOTH",
+"122 455 OFFCURVE",
+"88 438 OFFCURVE",
+"49 402 CURVE",
+"30 422 LINE",
+"81 492 OFFCURVE",
+"139 511 OFFCURVE",
+"182 511 CURVE SMOOTH",
+"286 511 OFFCURVE",
+"350 433 OFFCURVE",
+"321 325 CURVE SMOOTH",
+"302 255 OFFCURVE",
 "201 175 OFFCURVE",
 "149 119 CURVE",
 "209 102 OFFCURVE",
 "236 65 OFFCURVE",
-"302 50 CURVE",
-"368 93 LINE",
-"385 78 LINE",
-"354 43 OFFCURVE",
-"317 12 OFFCURVE",
-"277 -13 CURVE",
+"302 42 CURVE",
+"368 85 LINE",
+"385 70 LINE",
+"354 35 OFFCURVE",
+"317 4 OFFCURVE",
+"277 -21 CURVE",
 "212 2 OFFCURVE",
 "171 41 OFFCURVE",
 "108 58 CURVE",
@@ -3812,8 +3887,8 @@ nodes = (
 "52 115 OFFCURVE",
 "84 123 CURVE",
 "149 203 OFFCURVE",
-"235 279 OFFCURVE",
-"244 336 CURVE SMOOTH"
+"240 279 OFFCURVE",
+"249 336 CURVE SMOOTH"
 );
 }
 );
