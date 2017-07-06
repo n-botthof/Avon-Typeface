@@ -1,17 +1,5 @@
 {
 .appVersion = "983";
-DisplayStrings = (
-l,
-"total normal",
-"/t.001 oas/t.001 tb is/t.001 tao /t.001 moll t",
-tb,
-losverpvabntvom,
-i,
-"your tour",
-"nina botthof",
-abcdefghijklmnopqrstuvwxyz,
-"alles 0123"
-);
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
 designer = "Nina Botthof";
@@ -3689,7 +3677,7 @@ unicode = 0030;
 },
 {
 glyphname = one;
-lastChange = "2017-07-04 09:52:01 +0000";
+lastChange = "2017-07-06 21:34:37 +0000";
 layers = (
 {
 background = {
@@ -3738,29 +3726,29 @@ nodes = (
 );
 };
 backgroundImage = {
-crop = "{{0, 0}, {1280, 636}}";
-imagePath = "../finale Skizzen/012.jpg";
+crop = "{{0, 0}, {1280, 752}}";
+imagePath = "../finale Skizzen/1234.jpg";
 locked = "1";
-transform = "{1.1544, 0, 0, 1.1544, -644, -111}";
+transform = "{1.5092, -0.0527, 0.0527, 1.5092, -102, -347}";
 };
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
 {
 closed = 1;
 nodes = (
-"131 148 OFFCURVE",
-"139 244 OFFCURVE",
-"142 386 CURVE SMOOTH",
-"143 440 OFFCURVE",
-"106 432 OFFCURVE",
-"27 406 CURVE",
-"17 426 LINE",
-"70 469 OFFCURVE",
-"142 503 OFFCURVE",
-"205 518 CURVE",
-"226 488 LINE",
-"199 276 OFFCURVE",
-"191 83 OFFCURVE",
+"128 148 OFFCURVE",
+"132 244 OFFCURVE",
+"134 398 CURVE SMOOTH",
+"135 478 OFFCURVE",
+"96 467 OFFCURVE",
+"29 457 CURVE",
+"19 490 LINE",
+"71 510 OFFCURVE",
+"143 528 OFFCURVE",
+"205 538 CURVE",
+"226 508 LINE",
+"206 472 OFFCURVE",
+"191 84 OFFCURVE",
 "193 61 CURVE",
 "294 37 LINE",
 "290 11 LINE",
@@ -3770,8 +3758,8 @@ nodes = (
 "154 4 CURVE SMOOTH",
 "113 4 OFFCURVE",
 "73 0 OFFCURVE",
-"31 -12 CURVE",
-"21 22 LINE",
+"45 -7 CURVE",
+"35 27 LINE",
 "125 57 LINE"
 );
 }
