@@ -1,5 +1,10 @@
 {
 .appVersion = "983";
+DisplayStrings = (
+i,
+",",
+""
+);
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
 designer = "Nina Botthof";
@@ -4571,6 +4576,85 @@ width = 600;
 }
 );
 unicode = 0039;
+},
+{
+glyphname = comma;
+lastChange = "2017-07-07 18:37:16 +0000";
+layers = (
+{
+background = {
+components = (
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -40, -590}";
+}
+);
+};
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"56 92 OFFCURVE",
+"81 102 OFFCURVE",
+"106 108 CURVE",
+"125 87 LINE",
+"129 21 OFFCURVE",
+"90 -51 OFFCURVE",
+"53 -75 CURVE",
+"31 -61 LINE",
+"51 -30 OFFCURVE",
+"59 20 OFFCURVE",
+"30 38 CURVE",
+"33 78 LINE"
+);
+}
+);
+width = 155;
+}
+);
+unicode = 002C;
+},
+{
+glyphname = ellipsis;
+lastChange = "2017-07-07 18:38:04 +0000";
+layers = (
+{
+components = (
+{
+name = period;
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 150, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 300, 0}";
+}
+);
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+width = 456;
+}
+);
+unicode = 2026;
+},
+{
+glyphname = period;
+lastChange = "2017-07-07 18:33:32 +0000";
+layers = (
+{
+components = (
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -39, -590}";
+}
+);
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+width = 156;
+}
+);
+unicode = 002E;
 },
 {
 glyphname = space;
