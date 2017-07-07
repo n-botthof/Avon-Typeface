@@ -4,7 +4,10 @@ DisplayStrings = (
 " 123456",
 "zum zahlenwert",
 o,
-5
+5,
+3246,
+6,
+649
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -17,7 +20,7 @@ capHeight = 670;
 descender = -288;
 guideLines = (
 {
-position = "{324, 560}";
+position = "{317, 513}";
 },
 {
 position = "{465, 209}";
@@ -4116,11 +4119,55 @@ unicode = 0035;
 },
 {
 glyphname = six;
-lastChange = "2017-06-27 08:19:51 +0000";
+lastChange = "2017-07-07 12:47:05 +0000";
 layers = (
 {
+background = {
+components = (
+{
+name = _part.bogen;
+transform = "{1, 0, 0, 1, 0, -80}";
+}
+);
+};
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"423 98 OFFCURVE",
+"322 -9 OFFCURVE",
+"196 -9 CURVE SMOOTH",
+"86 -9 OFFCURVE",
+"20 84 OFFCURVE",
+"20 193 CURVE SMOOTH",
+"20 379 OFFCURVE",
+"131 538 OFFCURVE",
+"311 670 CURVE",
+"322 654 LINE",
+"311 635 LINE",
+"158 490 OFFCURVE",
+"98 359 OFFCURVE",
+"98 235 CURVE SMOOTH",
+"98 156 OFFCURVE",
+"136 53 OFFCURVE",
+"239 53 CURVE SMOOTH",
+"306 53 OFFCURVE",
+"353 106 OFFCURVE",
+"353 193 CURVE SMOOTH",
+"353 260 OFFCURVE",
+"299 323 OFFCURVE",
+"217 317 CURVE",
+"76 250 LINE",
+"75 273 LINE",
+"222 374 LINE",
+"320 399 OFFCURVE",
+"423 330 OFFCURVE",
+"423 218 CURVE SMOOTH"
+);
+}
+);
+width = 443;
 }
 );
 unicode = 0036;
@@ -4149,10 +4196,46 @@ unicode = 0038;
 },
 {
 glyphname = nine;
-lastChange = "2017-06-27 08:19:51 +0000";
+lastChange = "2017-07-07 12:47:53 +0000";
 layers = (
 {
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"17 410 OFFCURVE",
+"118 512 OFFCURVE",
+"244 512 CURVE SMOOTH",
+"354 512 OFFCURVE",
+"420 419 OFFCURVE",
+"420 310 CURVE SMOOTH",
+"420 124 OFFCURVE",
+"298 -35 OFFCURVE",
+"99 -167 CURVE",
+"88 -151 LINE",
+"99 -132 LINE",
+"274 13 OFFCURVE",
+"342 144 OFFCURVE",
+"342 268 CURVE SMOOTH",
+"342 347 OFFCURVE",
+"304 450 OFFCURVE",
+"201 450 CURVE SMOOTH",
+"134 450 OFFCURVE",
+"87 401 OFFCURVE",
+"87 320 CURVE SMOOTH",
+"87 248 OFFCURVE",
+"141 180 OFFCURVE",
+"223 186 CURVE",
+"364 253 LINE",
+"365 230 LINE",
+"218 129 LINE",
+"120 102 OFFCURVE",
+"17 176 OFFCURVE",
+"17 295 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 }
 );
