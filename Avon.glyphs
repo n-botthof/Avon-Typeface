@@ -1,7 +1,7 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-" 12",
+" alle zusammen 123",
 "zum zahlenwert",
 o
 );
@@ -16,7 +16,7 @@ capHeight = 670;
 descender = -288;
 guideLines = (
 {
-position = "{324, 509}";
+position = "{324, 560}";
 },
 {
 position = "{465, 209}";
@@ -3474,7 +3474,7 @@ unicode = 0030;
 },
 {
 glyphname = one;
-lastChange = "2017-07-06 22:17:42 +0000";
+lastChange = "2017-07-07 10:31:00 +0000";
 layers = (
 {
 background = {
@@ -3533,19 +3533,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"128 143 OFFCURVE",
-"132 233 OFFCURVE",
-"134 378 CURVE SMOOTH",
-"135 458 OFFCURVE",
-"96 447 OFFCURVE",
-"29 437 CURVE",
-"19 470 LINE",
-"71 490 OFFCURVE",
-"143 508 OFFCURVE",
-"205 518 CURVE",
-"226 488 LINE",
-"206 452 OFFCURVE",
-"191 83 OFFCURVE",
+"128 159 OFFCURVE",
+"132 266 OFFCURVE",
+"134 438 CURVE SMOOTH",
+"135 518 OFFCURVE",
+"96 507 OFFCURVE",
+"29 497 CURVE",
+"19 530 LINE",
+"71 550 OFFCURVE",
+"143 568 OFFCURVE",
+"205 578 CURVE",
+"226 548 LINE",
+"206 512 OFFCURVE",
+"191 86 OFFCURVE",
 "193 61 CURVE",
 "294 37 LINE",
 "290 11 LINE",
@@ -3568,7 +3568,7 @@ unicode = 0031;
 },
 {
 glyphname = two;
-lastChange = "2017-07-06 22:18:25 +0000";
+lastChange = "2017-07-07 10:31:42 +0000";
 layers = (
 {
 background = {
@@ -3675,7 +3675,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"233 197 OFFCURVE",
+"233 211 OFFCURVE",
 "149 110 CURVE",
 "204 101 OFFCURVE",
 "264 63 OFFCURVE",
@@ -3698,24 +3698,24 @@ nodes = (
 "34 84 OFFCURVE",
 "58 104 OFFCURVE",
 "85 118 CURVE",
-"173 211 OFFCURVE",
-"273 281 OFFCURVE",
-"273 366 CURVE SMOOTH",
-"273 419 OFFCURVE",
-"224 452 OFFCURVE",
-"177 452 CURVE SMOOTH",
-"144 452 OFFCURVE",
-"111 437 OFFCURVE",
-"88 404 CURVE",
-"70 395 LINE",
-"45 416 LINE",
-"89 490 OFFCURVE",
-"150 518 OFFCURVE",
-"205 518 CURVE SMOOTH",
-"285 518 OFFCURVE",
-"354 465 OFFCURVE",
-"354 383 CURVE SMOOTH",
-"354 255 OFFCURVE"
+"173 228 OFFCURVE",
+"273 306 OFFCURVE",
+"273 410 CURVE SMOOTH",
+"273 463 OFFCURVE",
+"224 506 OFFCURVE",
+"177 506 CURVE SMOOTH",
+"144 506 OFFCURVE",
+"111 491 OFFCURVE",
+"88 458 CURVE",
+"70 449 LINE",
+"45 470 LINE",
+"89 544 OFFCURVE",
+"150 572 OFFCURVE",
+"205 572 CURVE SMOOTH",
+"285 572 OFFCURVE",
+"354 516 OFFCURVE",
+"354 427 CURVE SMOOTH",
+"354 278 OFFCURVE"
 );
 }
 );
@@ -3726,7 +3726,7 @@ unicode = 0032;
 },
 {
 glyphname = three;
-lastChange = "2017-06-27 09:09:45 +0000";
+lastChange = "2017-07-07 10:34:51 +0000";
 layers = (
 {
 background = {
@@ -3772,12 +3772,6 @@ nodes = (
 );
 }
 );
-};
-backgroundImage = {
-crop = "{{0, 0}, {1280, 1145}}";
-imagePath = "../finale Skizzen/34.jpg";
-locked = "1";
-transform = "{0.9126, -0.0319, 0.0319, 0.9126, -51, -400}";
 };
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
