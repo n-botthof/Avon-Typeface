@@ -6,7 +6,8 @@ DisplayStrings = (
 "/f_k.liga atastfh",
 "scha/f_f.liga en",
 /f_f.liga,
-/f_j.liga
+/f_j.liga,
+f
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -309,7 +310,7 @@ unicode = 005A;
 },
 {
 glyphname = a;
-lastChange = "2017-07-09 14:45:14 +0000";
+lastChange = "2017-07-09 17:59:43 +0000";
 layers = (
 {
 components = (
@@ -607,7 +608,7 @@ unicode = 0064;
 },
 {
 glyphname = e;
-lastChange = "2017-07-09 17:22:01 +0000";
+lastChange = "2017-07-09 18:00:00 +0000";
 layers = (
 {
 background = {
@@ -707,7 +708,7 @@ unicode = 0065;
 },
 {
 glyphname = f;
-lastChange = "2017-07-09 16:47:27 +0000";
+lastChange = "2017-07-09 17:59:34 +0000";
 layers = (
 {
 background = {
@@ -828,7 +829,7 @@ nodes = (
 );
 }
 );
-width = 365;
+width = 315;
 }
 );
 unicode = 0066;
@@ -1580,7 +1581,7 @@ unicode = 006E;
 },
 {
 glyphname = o;
-lastChange = "2017-07-09 15:28:15 +0000";
+lastChange = "2017-07-09 18:00:16 +0000";
 layers = (
 {
 background = {
@@ -2491,7 +2492,7 @@ unicode = 0074;
 },
 {
 glyphname = u;
-lastChange = "2017-07-08 19:48:02 +0000";
+lastChange = "2017-07-09 17:58:59 +0000";
 layers = (
 {
 background = {
@@ -3911,7 +3912,7 @@ unicode = FB01;
 },
 {
 glyphname = f_f.liga;
-lastChange = "2017-07-09 17:25:26 +0000";
+lastChange = "2017-07-09 18:01:21 +0000";
 layers = (
 {
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
@@ -4028,7 +4029,7 @@ nodes = (
 );
 }
 );
-width = 644;
+width = 594;
 }
 );
 leftMetricsKey = f;
@@ -7176,11 +7177,12 @@ name = Regular;
 kerning = {
 "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5" = {
 f = {
-a = -50;
-e = -50;
-o = -55;
+a = 0;
+e = 0;
+o = 0;
 l = -40;
 t = -50;
+u = 0;
 };
 n = {
 o = 0;
