@@ -1,12 +1,5 @@
 {
 .appVersion = "983";
-DisplayStrings = (
-u,
-i,
-"\U00FC",
-w,
-x
-);
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
 designer = "Nina Botthof";
@@ -718,39 +711,9 @@ unicode = 006C;
 },
 {
 glyphname = m;
-lastChange = "2017-07-10 18:26:11 +0000";
+lastChange = "2017-07-10 18:40:34 +0000";
 layers = (
 {
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"180 313 OFFCURVE",
-"197 433 CURVE",
-"177 462 LINE",
-"133 461 OFFCURVE",
-"86 451 OFFCURVE",
-"35 439 CURVE",
-"41 409 LINE",
-"114 412 OFFCURVE",
-"124 398 OFFCURVE",
-"119 296 CURVE SMOOTH",
-"118 261 OFFCURVE",
-"112 183 OFFCURVE",
-"108 147 CURVE",
-"90 100 OFFCURVE",
-"75 56 OFFCURVE",
-"79 19 CURVE",
-"97 -3 OFFCURVE",
-"123 -13 OFFCURVE",
-"157 -14 CURVE",
-"172 22 LINE",
-"174 161 OFFCURVE"
-);
-}
-);
-};
 components = (
 {
 name = _part.bogen;
@@ -1030,42 +993,9 @@ unicode = 0070;
 },
 {
 glyphname = q;
-lastChange = "2017-07-10 18:35:03 +0000";
+lastChange = "2017-07-10 18:40:50 +0000";
 layers = (
 {
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"383 7 OFFCURVE",
-"394 220 OFFCURVE",
-"409 305 CURVE",
-"427 350 OFFCURVE",
-"442 396 OFFCURVE",
-"438 433 CURVE",
-"421 454 OFFCURVE",
-"397 465 OFFCURVE",
-"360 466 CURVE",
-"345 430 LINE",
-"344 356 OFFCURVE",
-"318 -126 OFFCURVE",
-"302 -235 CURVE",
-"208 -264 LINE",
-"220 -298 LINE",
-"255 -291 OFFCURVE",
-"296 -288 OFFCURVE",
-"336 -288 CURVE SMOOTH",
-"379 -288 OFFCURVE",
-"420 -292 OFFCURVE",
-"452 -298 CURVE",
-"471 -281 LINE",
-"473 -255 LINE",
-"371 -231 LINE"
-);
-}
-);
-};
 components = (
 {
 name = _part.bauch;
@@ -1112,39 +1042,9 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2017-07-10 18:36:19 +0000";
+lastChange = "2017-07-10 18:40:56 +0000";
 layers = (
 {
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"176 309 OFFCURVE",
-"189 433 CURVE",
-"169 462 LINE",
-"125 461 OFFCURVE",
-"78 451 OFFCURVE",
-"27 439 CURVE",
-"33 409 LINE",
-"103 412 OFFCURVE",
-"110 398 OFFCURVE",
-"116 296 CURVE SMOOTH",
-"118 261 OFFCURVE",
-"118 187 OFFCURVE",
-"116 147 CURVE",
-"98 100 OFFCURVE",
-"83 56 OFFCURVE",
-"87 19 CURVE",
-"105 -3 OFFCURVE",
-"131 -13 OFFCURVE",
-"165 -14 CURVE",
-"180 22 LINE",
-"174 182 OFFCURVE"
-);
-}
-);
-};
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
 {
@@ -1387,39 +1287,9 @@ unicode = 0074;
 },
 {
 glyphname = u;
-lastChange = "2017-07-10 18:37:18 +0000";
+lastChange = "2017-07-10 18:39:47 +0000";
 layers = (
 {
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"439 315 OFFCURVE",
-"455 433 CURVE",
-"435 462 LINE",
-"391 461 OFFCURVE",
-"344 451 OFFCURVE",
-"293 439 CURVE",
-"299 409 LINE",
-"372 412 OFFCURVE",
-"382 398 OFFCURVE",
-"377 296 CURVE SMOOTH",
-"372 230 OFFCURVE",
-"361 143 OFFCURVE",
-"344 0 CURVE",
-"376 -20 LINE",
-"427 -6 OFFCURVE",
-"472 21 OFFCURVE",
-"499 47 CURVE",
-"493 66 LINE",
-"416 49 LINE",
-"412 51 LINE",
-"412 118 OFFCURVE"
-);
-}
-);
-};
 components = (
 {
 name = _part.bogenu;
@@ -1670,39 +1540,9 @@ unicode = 0077;
 },
 {
 glyphname = x;
-lastChange = "2017-07-10 18:38:37 +0000";
+lastChange = "2017-07-10 18:39:33 +0000";
 layers = (
 {
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"217 341 OFFCURVE",
-"174 452 CURVE",
-"142 467 LINE",
-"104 445 OFFCURVE",
-"68 414 OFFCURVE",
-"29 378 CURVE",
-"49 355 LINE",
-"112 393 OFFCURVE",
-"127 386 OFFCURVE",
-"172 294 CURVE SMOOTH",
-"201 235 OFFCURVE",
-"256 115 OFFCURVE",
-"316 -16 CURVE",
-"354 -18 LINE",
-"391 19 OFFCURVE",
-"416 65 OFFCURVE",
-"427 101 CURVE",
-"412 114 LINE",
-"356 62 LINE",
-"351 62 LINE",
-"319 121 OFFCURVE"
-);
-}
-);
-};
 layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
 paths = (
 {
