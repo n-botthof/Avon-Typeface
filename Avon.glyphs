@@ -1,13 +1,9 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"/fi lament",
-/f_h.liga,
-"/f_k.liga atastfh",
-"scha/f_f.liga en",
-/f_f.liga,
-/f_j.liga,
-f
+"-",
+/emdash,
+"-/endash/emdash"
 );
 copyright = "Copyright © 2017 by Nina Botthof. All rights reserved.";
 date = "2017-06-21 10:27:15 +0000";
@@ -5959,6 +5955,66 @@ width = 228;
 unicode = 003B;
 },
 {
+glyphname = emdash;
+lastChange = "2017-07-10 17:23:02 +0000";
+layers = (
+{
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"55 325 OFFCURVE",
+"42 306 OFFCURVE",
+"30 291 CURVE",
+"47 276 LINE",
+"179 282 LINE",
+"515 275 LINE",
+"531 284 OFFCURVE",
+"549 306 OFFCURVE",
+"562 323 CURVE",
+"545 338 LINE",
+"190 339 LINE",
+"67 336 LINE"
+);
+}
+);
+width = 592;
+}
+);
+unicode = 2014;
+},
+{
+glyphname = endash;
+lastChange = "2017-07-10 17:23:51 +0000";
+layers = (
+{
+layerId = "E3DDE12C-3A5F-4385-A6FD-0C1D1DE2DDC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"55 325 OFFCURVE",
+"42 306 OFFCURVE",
+"30 291 CURVE",
+"47 276 LINE",
+"149 282 LINE",
+"445 275 LINE",
+"461 284 OFFCURVE",
+"479 306 OFFCURVE",
+"492 323 CURVE",
+"475 338 LINE",
+"160 339 LINE",
+"67 336 LINE"
+);
+}
+);
+width = 522;
+}
+);
+unicode = 2013;
+},
+{
 glyphname = hyphen;
 lastChange = "2017-07-09 14:52:48 +0000";
 layers = (
@@ -7179,10 +7235,13 @@ kerning = {
 f = {
 a = 0;
 e = 0;
-o = 0;
 l = -40;
+o = 0;
 t = -50;
 u = 0;
+};
+f_f.liga = {
+e = -50;
 };
 n = {
 o = 0;
@@ -7192,9 +7251,6 @@ n = 0;
 };
 u = {
 f = 0;
-};
-f_f.liga = {
-e = -50;
 };
 };
 };
